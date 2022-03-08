@@ -63,6 +63,9 @@
   box-shadow: 0 0 5px 0.001px #f25822;
 }
 
+.hero-desc {
+  padding-bottom: 65px;
+}
 .hero-text {
   padding-right: 40px;
   margin-top: 90px;
@@ -78,11 +81,14 @@
   margin-bottom: 20px;
   margin-top: 25px;
 }
+.hero-img {
+  position: relative;
+}
 .hero-img img {
-  width: 780px;
+  width: 755px;
   position: absolute;
-  right: 0px;
-  top: 100px;
+  left: 10px;
+  top: 50px;
 }
 .desc-btn-list {
   margin: 40px 0 40px -30px;
@@ -130,7 +136,7 @@
 
     /* START BRANDS */
 .brands {
-  padding: 145px 0 100px 0;
+  padding: 100px 0 120px 0;
 }  
 .brands-list:first-child {
   margin-left: -27px;
@@ -235,13 +241,15 @@
 
     /* START DO-SECTION */
 .do-section {
-  position: relative;
   padding: 100px 0;
+}
+.do-section-img {
+  position: relative;
 }
 .do-section-img img {
   width: 830px;
   position: absolute;
-  left: -100px;
+  left: -210px;
   top: 40px;
   background-size: cover;
 }
